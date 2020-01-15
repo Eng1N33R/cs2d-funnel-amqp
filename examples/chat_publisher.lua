@@ -1,5 +1,6 @@
 local amqp = require("amqp")
 local json = require("json")
+local base64 = require("base64")
 
 -- Server identifier to tag messages with
 local server_id = "testing-area"
